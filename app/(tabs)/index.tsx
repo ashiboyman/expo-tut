@@ -183,9 +183,7 @@ export default function Index() {
             <ScrollView showsVerticalScrollIndicator={false}>
                 {habits?.length === 0 ? (
                     <View style={styles.emptyState}>
-                        {" "}
                         <Text style={styles.emptyStateText}>
-                            {" "}
                             No Habits yet. Add your first Habit!
                         </Text>
                     </View>
